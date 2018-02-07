@@ -1,6 +1,11 @@
 {
     "name": "take-a-nap",
     "main": "server.js",
+    "scripts": {
+        "ng": "ng",
+        "start": "ng serve --host 0.0.0.0 --port 8080",
+        "dev": "nodemon server.js"
+    },
     "dependencies": {
         "express": "~4.0.0",
         "mongoose": "~3.6.13",
